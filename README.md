@@ -4,6 +4,8 @@ This firmware is intended to be used to teach students how to control MCU via SC
 I have design this SCPI instrument to have 11 digital inputs, 8 digital outputs, 4 analog inputs, 1 PWM output, chip temperature and RGB LED.
 The digital input DI10 (GPIO24) connected to button on the board while 1 PWM output connected to built-in LED at digital output DO9 (GPIO25).
 The RGB LED connected to GPIO23. The support commands are as followed:
+
+
 OUT a b = write output a [0-8] with logic b [0|1].
 OUT? a = read status of output a.
 IN a = read status of input a.
